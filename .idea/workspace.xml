@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="" />
+    <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/isVisibleTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +103,7 @@
       <workItem from="1566832825335" duration="109000" />
       <workItem from="1566874650910" duration="5346000" />
       <workItem from="1566962665828" duration="1642000" />
-      <workItem from="1566964804780" duration="1341000" />
+      <workItem from="1566964804780" duration="1996000" />
     </task>
     <servers />
   </component>
