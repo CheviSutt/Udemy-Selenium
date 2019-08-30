@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/isVisibleTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,21 +57,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="udemy" type="mocha-javascript-test-runner">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory>$PROJECT_DIR$/tests</test-directory>
-      <recursive>false</recursive>
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -103,8 +87,20 @@
       <workItem from="1566832825335" duration="109000" />
       <workItem from="1566874650910" duration="5346000" />
       <workItem from="1566962665828" duration="1642000" />
-      <workItem from="1566964804780" duration="1996000" />
+      <workItem from="1566964804780" duration="4215000" />
+      <workItem from="1567004350895" duration="9000" />
+      <workItem from="1567004402193" duration="649000" />
+      <workItem from="1567204920405" duration="1491000" />
+      <workItem from="1567207805230" duration="169000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1566967626052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566967626052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,10 +111,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
 </project>
