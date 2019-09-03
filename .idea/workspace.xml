@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/contactUsTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/contactUsTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/isEnabledTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/isEnabledTest.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,7 +98,8 @@
       <workItem from="1567004350895" duration="9000" />
       <workItem from="1567004402193" duration="649000" />
       <workItem from="1567204920405" duration="1491000" />
-      <workItem from="1567207805230" duration="169000" />
+      <workItem from="1567207805230" duration="936000" />
+      <workItem from="1567459901822" duration="4146000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1566967626052</created>

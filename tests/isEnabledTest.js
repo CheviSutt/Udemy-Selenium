@@ -9,22 +9,32 @@ beforeEach(function() {
 
 describe('Test Enabled Dropdown Menus, Checkboxes & Radio Buttons', function() {
   it('Dropdown item orange is disabled therefore should return false', function(done) {
-      option[value='orange']
+    let isEnabled = browser.isEnabled("option[value='orange']");
+    console.log(isEnabled);
+    expect(isEnabled).to.equal(false);
   });
   
   it('Dropdown item grape is enabled therefore should return true', function(done) {
-    option[value='grape']
+    let isEnabled = browser.isEnabled("option[value='grape']");
+    console.log(isEnabled);
+    expect(isEnabled).to.equal(true);
   });
   
   it('Option2 is enabled therefore should return true', function(done) {
-    input[value='option-2']
+    let isEnabled = browser.isEnabled("input[value='option-2']");
+    console.log(isEnabled);
+    expect(isEnabled).to.equal(true);
   });
   
   it('Radio button pumpkin is enabled therefore should be true', function(done) {
-    input[value='pumpkin']
+    let isEnabled = browser.isEnabled("input[value='pumpkin']");
+    console.log(isEnabled);
+    expect(isEnabled).to.equal(true);
   });
   
   it('Radio button cabbage is disabled therefore should be false', function(done) {
-    input[value='cabbage']
+    let isEnabled = browser.isEnabled("input[value='cabbage']");
+    console.log(isEnabled);
+    expect(isEnabled).to.equal(false);
   });
 });
