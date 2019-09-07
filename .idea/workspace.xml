@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/contactUsTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/contactUsTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/isEnabledTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/isEnabledTest.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,9 @@
       <workItem from="1567004402193" duration="649000" />
       <workItem from="1567204920405" duration="1491000" />
       <workItem from="1567207805230" duration="936000" />
-      <workItem from="1567459901822" duration="4146000" />
+      <workItem from="1567459901822" duration="4343000" />
+      <workItem from="1567640156505" duration="260000" />
+      <workItem from="1567858693196" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1566967626052</created>
