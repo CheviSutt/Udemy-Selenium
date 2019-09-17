@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/contactUsTest_POM.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/contactUsTest_POM.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/contactUsTest_POM.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,8 @@
       <workItem from="1567640156505" duration="260000" />
       <workItem from="1567858693196" duration="2756000" />
       <workItem from="1567981267353" duration="1030000" />
-      <workItem from="1568584407390" duration="8239000" />
+      <workItem from="1568584407390" duration="8473000" />
+      <workItem from="1568691582121" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1566967626052</created>
