@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba10de6b-981c-4e38-a25c-2b357cabdaf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/contactUsTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/contactUsTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/ContactUs_Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/ContactUs_Page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/contactUsTest_POM.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/contactUsTest_POM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,7 @@
       <workItem from="1568746270044" duration="1101000" />
       <workItem from="1569160175563" duration="1584000" />
       <workItem from="1569195727886" duration="385000" />
-      <workItem from="1569196390723" duration="2300000" />
+      <workItem from="1569196390723" duration="4728000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1566967626052</created>
