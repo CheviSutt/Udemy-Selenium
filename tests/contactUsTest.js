@@ -1,15 +1,38 @@
-
 let request = require('sync-request');
 
 browser.addCommand("submitDataViaContactUsForm", function (firstName, lastName, emailAddress, comments) {
-  if(firstName || lastName || emailAddress || comments){
-    browser.setValue("[name='first_name']", firstName);
-    browser.setValue("[name='last_name']", lastName);
-    browser.setValue("[name='email']", emailAddress);
-    browser.setValue("[name='message']", comments);
-    browser.click("[type='submit']");
-  }
+
+
+    // ? Josh example
+    // setValueIfNotNull(firstName, '[Nmae=asdf');
+    //
+    //
+    // firstName ? browser.setValue('asdf', firstName) : null;
+    // lastName ? browser.setValue('asdf', firstName) : null;
+    // firstName ? browser.setValue('asdf', firstName) : null;
+    // firstName ? browser.setValue('asdf', firstName) : null;
+
+    // ? As written incourse
+    // if (firstName) {
+    // browser.setValue("[name='first_name']", firstName);
+    // }
+
+
+    // Could stop after one false value: undefined
+    if (firstName || lastName || emailAddress || comments) {
+        browser.setValue("[name='first_name']", firstName);
+        browser.setValue("[name='last_name']", lastName);
+        browser.setValue("[name='email']", emailAddress);
+        browser.setValue("[name='message']", comments);
+        browser.click("[type='submit']");
+    }
 })
+
+function setValueIfNotnull(value, selector) {
+    if (!value) return;
+
+    browser.setValue(selector, value);
+}
 
 beforeEach(function () {
     browser.url('/Contact-Us/contactus.html');
@@ -29,13 +52,13 @@ describe('Test Contact Us form WebdriverUni', function () {
     contactUsDetails.forEach(function (contactDetail) {
 
         it('Should be able to submit a successful submission via contact us form', function (done) {
-          browser.submitDataViaContactUsForm('Joe', 'Blogs', contactDetail.email, contactDetail.body);
+            browser.submitDataViaContactUsForm('Joe', 'Blogs', contactDetail.email, contactDetail.body);
 
-          // use < null > to skip a input field see below, same as above but implementing null.
-          // browser.submitDataViaContactUsForm(null, 'Blogs', contactDetail.email, contactDetail.body);
+            // use < null > to skip a input field see below, same as above but implementing null.
+            // browser.submitDataViaContactUsForm(null, 'Blogs', contactDetail.email, contactDetail.body);
 
-          // Code below before reformatting
-          // browser.setValue("[name='first_name']", 'Joe');
+            // Code below before reformatting
+            // browser.setValue("[name='first_name']", 'Joe');
             // browser.setValue("[name='last_name']", 'Blogs');
             // browser.setValue("[name='email']", contactDetail.email);
             // browser.setValue("[name='message']", contactDetail.body);
